@@ -8,7 +8,6 @@ if (userRole === "admin") {
 } else {
     accessLevel = "No access granted";
 }
-
     console.log("Access Level:", accessLevel);
 
     let isLoggedIn = true;
@@ -51,4 +50,4 @@ let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticate
 
     console.log("Authentication Status:", authenticationStatus);
 
-    
+
